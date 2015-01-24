@@ -57,7 +57,7 @@ float globaltime = iGlobalTime - 7.555;
 vec3 blur(vec2 p)
 {
     vec3 ite = vec3(0.0);
-    for(int i = 0; i < 12; i ++)
+    for(int i = 0; i < 6; i ++)
     {
         float tc = 0.15;
         ite += pix2(p, globaltime * 1.618 + (hash2(p + float(i)) - 0.5).x * tc, 5.0);
