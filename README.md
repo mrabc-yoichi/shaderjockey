@@ -1,6 +1,7 @@
 # shaderjockey
 GLSL sandbox-compatible Shader player &amp; controller
 
-Works under Pd-extended with GEM
+Working confirmed under Pd(Pure Data) 0.47 or later
 
-If it does not work well, place shaderjockey directory at pd-extended directory
+Outdated version for Pd-extended 0.43 is moved to a retraction branch
+<https://github.com/mrabc-yoichi/shaderjockey/tree/pdextended043>
